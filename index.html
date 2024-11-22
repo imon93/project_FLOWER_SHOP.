@@ -16,19 +16,39 @@
 <body>
     
     <!-- PRELOADER AREA -->
+    <div class="preloader_area">
+      <div class="loader"></div>
+    </div>
     <!-- PRELOADER AREA END -->
 
 
     <!-- BACK TO TOP BTN AREA -->
+    <button class="back_to_top btn btn-primary">
+      <i class="fa-solid fa-angles-up"></i>
+    </button>
     <!-- BACK TO TOP BTN AREA END -->
 
 
     <!-- MAIN AREA -->
      <section id="main">
 
+
+      <!-- btn -->
+      <input type="checkbox" class="menu-btn" id="menu-btn"/>
+
         <!-- ========= MENU AREA ========= -->
          <header>
+
+
+             <!-- header top -->
             <div class="header_top">
+
+               <!-- menu-icon -->
+                <label for="menu-btn" class="menu-icon">
+                  <span class="nav-icon"></span>
+                </label>
+
+               <!-- location -->
                 <div class="nav-location">
                     <a href="#">
                         <i class="fa-solid fa-location-dot"></i>
@@ -37,7 +57,7 @@
                 </div>
 
                 <a href="#" class="logo">
-                    <img src="assets/images/logo.png" alt="logo">
+                    <img src="assets/images/logo2.png" alt="logo"/>
                 </a>
 
                 <div class="nav-btns">
@@ -64,14 +84,14 @@
 
             <nav class="navigation">
                 <ul class="menu">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Category</a></li>
-                    <li><a href="#">Shop</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#category">Category</a></li>
+                    <li><a href="#shoping-banner">Shop</a></li>
                     <li>
-                        <a href="#">Popular</a>
+                        <a href="#popular">Popular</a>
                         <span class="nav-label">Hot Offer</span>
                     </li>
-                    <li><a href="#">Recent</a></li>
+                    <li><a href="#recent-products">Recent</a></li>
                 </ul>
             </nav>
 
@@ -238,14 +258,14 @@
             <!-- product -->
              <div class="popular-product-container">
                 <!-- box1 -->
-                 <div class="popular-box">
+                 <div class="product-box">
                     <!-- image -->
-                     <a href="#" class="popular-box-img">
+                     <a href="#" class="product-box-img">
                         <img src="assets/images/popular/popular_01.png" alt="PopularProduct"/>
                         <span>New</span>
                      </a>
                      <!-- text -->
-                      <div class="popular-box-text">
+                      <div class="product-box-text">
                         <a href="#" class="product-text-title">Flower Pot</a>
                         <span>20$ <del>40$</del></span>
                         <a href="#" class="product-cart-btn">
@@ -256,14 +276,14 @@
                  </div>
 
                 <!-- box2 -->
-                 <div class="popular-box">
+                 <div class="product-box">
                     <!-- image -->
-                     <a href="#" class="popular-box-img">
+                     <a href="#" class="product-box-img">
                         <img src="assets/images/popular/popular_02.png" alt="PopularProduct"/>
                         <span>New</span>
                      </a>
                      <!-- text -->
-                      <div class="popular-box-text">
+                      <div class="product-box-text">
                         <a href="#" class="product-text-title">Flower Pot</a>
                         <span>20$ <del>40$</del></span>
                         <a href="#" class="product-cart-btn">
@@ -274,14 +294,14 @@
                  </div>
 
                 <!-- box3 -->
-                 <div class="popular-box">
+                 <div class="product-box">
                     <!-- image -->
-                     <a href="#" class="popular-box-img">
+                     <a href="#" class="product-box-img">
                         <img src="assets/images/popular/popular_03.png" alt="PopularProduct"/>
                         <span>New</span>
                      </a>
                      <!-- text -->
-                      <div class="popular-box-text">
+                      <div class="product-box-text">
                         <a href="#" class="product-text-title">Flower Pot</a>
                         <span>20$ <del>40$</del></span>
                         <a href="#" class="product-cart-btn">
@@ -292,14 +312,14 @@
                  </div>
 
                 <!-- box4 -->
-                 <div class="popular-box">
+                 <div class="product-box">
                     <!-- image -->
-                     <a href="#" class="popular-box-img">
+                     <a href="#" class="product-box-img">
                         <img src="assets/images/popular/popular_04.png" alt="PopularProduct"/>
                         <span>New</span>
                      </a>
                      <!-- text -->
-                      <div class="popular-box-text">
+                      <div class="product-box-text">
                         <a href="#" class="product-text-title">Flower Pot</a>
                         <span>20$ <del>40$</del></span>
                         <a href="#" class="product-cart-btn">
@@ -310,14 +330,14 @@
                  </div>
 
                 <!-- box5 -->
-                 <div class="popular-box">
+                 <div class="product-box">
                     <!-- image -->
-                     <a href="#" class="popular-box-img">
+                     <a href="#" class="product-box-img">
                         <img src="assets/images/popular/popular_05.png" alt="PopularProduct"/>
                         <span>New</span>
                      </a>
                      <!-- text -->
-                      <div class="popular-box-text">
+                      <div class="product-box-text">
                         <a href="#" class="product-text-title">Flower Pot</a>
                         <span>20$ <del>40$</del></span>
                         <a href="#" class="product-cart-btn">
@@ -328,14 +348,14 @@
                  </div>
 
                 <!-- box6 -->
-                 <div class="popular-box">
+                 <div class="product-box">
                     <!-- image -->
-                     <a href="#" class="popular-box-img">
+                     <a href="#" class="product-box-img">
                         <img src="assets/images/popular/popular_06.png" alt="PopularProduct"/>
                         <span>New</span>
                      </a>
                      <!-- text -->
-                      <div class="popular-box-text">
+                      <div class="product-box-text">
                         <a href="#" class="product-text-title">Flower Pot</a>
                         <span>20$ <del>40$</del></span>
                         <a href="#" class="product-cart-btn">
@@ -346,10 +366,324 @@
                  </div>
              </div>
              <!-- banner -->
-              <div class="popular-banner"></div>
+              <div class="popular-banner">
+               <!-- text -->
+                <div class="popular-banner-text">
+                  <h3>Summer Flower Collection</h3>
+                  <a href="#">Shop Now</a>
+                </div>
+                  <!-- img -->
+                   <div class="popular-banner-img">
+                     <img src="assets/images/banner.webp" alt="Banner"/>
+                   </div>
+              </div>
           </div>
      </section>
     <!-- ===== POPULAR ITEM AREA END ===== -->
+
+
+    <!-- ===== SHOPING BANNER AREA ===== -->
+     <section id="shoping-banner">
+      <div class="shoping-banner-container">
+         <!-- text -->
+          <div class="shoping-banner-text">
+            <strong>Collection</strong>
+            <h3>Beautiful Flower Pot</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, illum!</p>
+            <a href="#">Shop Now</a>
+          </div>
+          <!-- img -->
+          <div class="shoping-banner-img">
+            <img src="assets/images/shoes-bag.png" alt="Banner"/>
+          </div>
+      </div>
+     </section>
+    <!-- ===== SHOPING BANNER AREA END ===== -->
+
+
+    <!-- ===== RECENT PRODUCT AREA ===== -->
+     <section id="recent-products">
+
+      <!-- heading -->
+      <h2>Recent Flowers</h2>
+
+      <!-- container -->
+       <div class="recent-product-container">
+         <!-- box1 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_07.png" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+         <!-- box2 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_08.png" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+         <!-- box3 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_09.png" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+         <!-- box4 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_10.png" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+       </div>
+      
+     </section>
+    <!-- ===== RECENT PRODUCT AREA END ===== -->
+
+
+    <!-- ===== PARTNER AREA ===== -->
+     <section id="partner">
+      <img src="assets/images/BrandLogo/logo-1.png" alt="partnercompaney"/>
+      <img src="assets/images/BrandLogo/logo-2.png" alt="partnercompaney"/>
+      <img src="assets/images/BrandLogo/logo-3.png" alt="partnercompaney"/>
+      <img src="assets/images/BrandLogo/logo-4.png" alt="partnercompaney"/>
+     </section>
+    <!-- ===== PARTNER AREA END ===== -->
+
+
+    <!-- ===== PLANTS AREA ===== -->
+    <section id="recent-products">
+
+      <!-- heading -->
+      <h2>Plants Collection</h2>
+
+      <!-- container -->
+       <div class="recent-product-container">
+         <!-- box1 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_11.webp" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+         <!-- box2 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_12.webp" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+         <!-- box3 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_13.webp" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+         <!-- box4 -->
+         <div class="product-box">
+            <!-- image -->
+             <a href="#" class="product-box-img">
+                <img src="assets/images/popular/popular_14.webp" alt="PopularProduct"/>
+                <span>New</span>
+             </a>
+             <!-- text -->
+              <div class="product-box-text">
+                <a href="#" class="product-text-title">Flower Pot</a>
+                <span>20$ <del>40$</del></span>
+                <a href="#" class="product-cart-btn">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    Add To Cart
+                </a>
+              </div>
+         </div>
+
+       </div>
+      
+     </section>
+    <!-- ===== PLANTS AREA END ===== -->
+
+
+    <!-- ===== SERVICE AREA ===== -->
+     <section class="service_area">
+
+      <!-- service box1 -->
+       <div class="service-box">
+         <i class="fa-solid fa-truck-fast"></i>
+         <span>Free Shipping</span>
+         <p>Free shipping for all orders</p>
+       </div>
+
+      <!-- service box2 -->
+       <div class="service-box">
+         <i class="fa-solid fa-headphones"></i>
+         <span>Support 24/7</span>
+         <p>We Support 24h a day</p>
+       </div>
+
+      <!-- service box3 -->
+       <div class="service-box">
+         <i class="fa-solid fa-recycle"></i>
+         <span>100% Money Back</span>
+         <p>You Have 30 days to return</p>
+       </div>
+     </section>
+    <!-- ===== SERVICE AREA END ===== -->
+
+
+    <!-- ===== FOOTER AREA ===== -->
+     <footer>
+      <div class="footer-container">
+
+         <!-- company box -->
+          <div class="footer-company-box">
+            <!-- logo -->
+             <a href="#" class="footer-logo">
+               <img src="assets/images/logo2.png" alt="footer-logo"/>
+             </a>
+             <!-- details -->
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, quae.</p>
+              <!-- social -->
+               <div class="footer-social">
+                  <!-- facebook -->
+                   <a href="#">
+                     <i class="fa-brands fa-facebook-f"></i>
+                   </a>
+                   <!-- instagram -->
+                    <a href="#">
+                     <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <!-- twitter -->
+                     <a href="#">
+                        <i class="fa-brands fa-twitter"></i>
+                     </a>
+                     <!-- Youtube -->
+                      <a href="#">
+                        <i class="fa-brands fa-youtube"></i>
+                      </a>
+               </div>
+          </div>
+
+          <!-- quick links -->
+           <div class="footer-link-box">
+            <strong>Main Link's</strong>
+            <ul>
+               <li><a href="#">Home</a></li>
+               <li><a href="#">Category</a></li>
+               <li><a href="#">Shop</a></li>
+               <li><a href="#">Popular</a></li>
+               <li><a href="#">Recent</a></li>
+            </ul>
+           </div>
+
+          <!-- social links -->
+           <div class="footer-link-box">
+            <strong>Social Link's</strong>
+            <ul>
+               <li><a href="#">Facebook</a></li>
+               <li><a href="#">Instagram</a></li>
+               <li><a href="#">Twitter</a></li>
+               <li><a href="#">Youtube</a></li>
+            </ul>
+           </div>
+
+           <!-- subscribe -->
+            <div class="footer-subscribe">
+               <strong>Subscribe Now</strong>
+               <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit, soluta.</p>
+               <form class="subscribe-box">
+                  <input type="email" placeholder="Example12@gmail.com" name="subscribe" required/>
+                  <button>Subscribe</button>
+               </form>
+            </div>
+      </div>
+
+      <!-- bottom -->
+       <div class="footer-bottom">
+         <span>Edited By IMON</span>
+         <span>Copyright &copy;2025. All Right Reserved</span>
+       </div>
+     </footer>
+    <!-- ===== FOOTER AREA END ===== -->
 
     <!-- JS LINK -->
      <script src="assets/js/bootstrap.bundle.min.js"></script>
@@ -359,7 +693,6 @@
 </body>
 </html>
 
-<!-- 48m 30s -->
 
 
 <!-- 

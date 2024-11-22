@@ -1,8 +1,50 @@
+$(document).ready(function() {
+
+    $(window).on("load", function() {
+        $(".preloader_area").fadeOut(1000)
+    });
+
+    $(".back_to_top").click(function() {
+        $("html, body").animate({scrollTop: 0}, 500)
+    });
+
+    $(window).scroll(function(){
+        var scrolling = $(this).scrollTop()
+
+        if (scrolling > 200) {
+            $(".back_to_top").fadeIn(500)
+        }
+        else{
+            $(".back_to_top").fadeOut(500)
+        }
+    });
+});
+
 
 
 // SEARCH OPTION
 
 document.addEventListener("DOMContentLoaded", function(){
+
+    // ===== seating header section =====
+    const header = document.querySelector("header");
+    let lastScrollY = window.scrollY;
+
+    window.addEventListener("scroll", function() {
+        const currentScrollY = window.scrollY;
+
+        // check if at the top
+        if(currentScrollY === 0){
+            header.classList.remove("header-fix");
+        }
+        else if(currentScrollY < lastScrollY){
+            header.classList.add("header-fix");
+        }
+        else{
+            header.classList.remove("header-fix");
+        }
+        lastScrollY = currentScrollY;
+    });
 
     // ======= for search =========
     document.addEventListener("click", function(event){
