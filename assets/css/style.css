@@ -839,7 +839,8 @@ header.header-fix .header_top {
 /* ==================== ===== */
 
 /* RECENT PRODUCT AREA */
-#recent-products {
+#recent-products,
+#plants-products {
     width: 90%;
     max-width: 1200px;
     margin: 50px auto;
@@ -1329,7 +1330,7 @@ footer {
     }
 }
 
-@media(max-width: 310px) {
+@media(max-width: 320px) {
     .recent-product-container,
     .popular-product-container {
         grid-template-columns: 1fr;
